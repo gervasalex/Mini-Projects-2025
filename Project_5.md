@@ -17,3 +17,17 @@ and evaluate the genomic impact of infection in relation to insecticide resistan
 
 4. To evaluate the potential functional impact of genetic variations linked to Microsporidia MB infection and their implications for vector control strategies.
 
+
+## Data analysis pipeline
+
+###   Quality check
+
+```
+fastqc /Kenya_microsporidia_sequence/ *_R1_001.fastq.gz /Kenya_microsporidia_sequence/ *_R2_001.fastq.gz --output output_fastqc/
+```
+
+
+
+
+
+
